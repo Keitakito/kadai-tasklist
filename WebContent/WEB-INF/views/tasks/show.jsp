@@ -11,12 +11,12 @@
 
                 <p>
                     作成日時：
-                    <fmt:formatDate value="${message.created_at}"
+                    <fmt:formatDate value="${task.created_at}"
                         pattern="yyyy-MM-dd HH:mm:ss" />
                 </p>
                 <p>
                     更新日時：
-                    <fmt:formatDate value="${message.updated_at}"
+                    <fmt:formatDate value="${task.updated_at}"
                         pattern="yyyy-MM-dd HH:mm:ss" />
                 </p>
 
@@ -24,7 +24,7 @@
                     <a href="${pageContext.request.contextPath}/index">全てのタスク</a>
                 </p>
                 <p>
-                    <a href="${pageContext.request.contextPath}/edit?id=${message.id}">編集</a>
+                    <a href="${pageContext.request.contextPath}/edit?id=${task.id}">編集</a>
                 </p>
 
             </c:when>

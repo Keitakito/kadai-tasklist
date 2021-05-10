@@ -15,7 +15,7 @@ import utils.DBUtil;
 /**
  * Servlet implementation class DestroyServlet
  */
-@WebServlet(name = "destoy", urlPatterns = { "/destoy" })
+@WebServlet(name = "destroy", urlPatterns = { "/destroy" })
 public class DestroyServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
